@@ -4,7 +4,7 @@ import base.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HomePage;
+import pom.HomePage;
 import utils.CartHelper;
 public class NavigateToCartTest extends BaseTest {
 

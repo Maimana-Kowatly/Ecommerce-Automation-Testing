@@ -38,14 +38,14 @@ public class WishlistPage {
         driver.findElement(addToWishlistButton).click();
     }
 
-    public boolean isAddedSuccessfully() {
-        return driver.findElement(successMessage).isDisplayed();
-    }
-
-    public String getWishlistCount() {
-        return driver.findElement(wishlistCount).getText();
-    }
-    public void selectColorAndSize(String colorName, String sizeName) {
+//    public boolean isAddedSuccessfully() {
+//        return driver.findElement(successMessage).isDisplayed();
+//    }
+//
+//    public String getWishlistCount() {
+//        return driver.findElement(wishlistCount).getText();
+//    }
+    public void selectColorAndSize() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Select color
@@ -98,40 +98,34 @@ public class WishlistPage {
         Actions actions = new Actions(driver);
 
         try {
-            // ✅ Ensure the wishlist page is loaded properly
+            //  Ensure the wishlist page is loaded properly
             wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("ol.product-items")));
 
-            // ✅ Check if there are any wishlist items
+            // Check if there are any wishlist items
             List<WebElement> wishlistItems = driver.findElements(By.cssSelector("li.product-item"));
             if (wishlistItems.isEmpty()) {
                 System.out.println("No items in the wishlist to remove.");
-                return false;  // ❌ Nothing to remove
+                return false;  //
             }
-
-            // ✅ Get the first wishlist item
+            //  Get the first wishlist item
             WebElement firstWishlistItem = wishlistItems.get(0);
-
-            // ✅ Hover over the product image
+            //  Hover over the product image
             WebElement productImage = firstWishlistItem.findElement(By.cssSelector("a.product-item-photo"));
             actions.moveToElement(productImage).perform();
             Thread.sleep(1000); // Give time for hover effect (can be replaced with explicit wait)
-
-            // ✅ Wait for the remove button to appear and click it
+            //  Wait for the remove button to appear and click it
             WebElement removeButton = wait.until(ExpectedConditions.elementToBeClickable(firstWishlistItem.findElement(By.cssSelector("a.btn-remove"))));
             actions.moveToElement(removeButton).click().perform();
-
-            // ✅ Handle possible page refresh (wait until the item disappears)
+            // Handle possible page refresh (wait until the item disappears)
             wait.until(ExpectedConditions.stalenessOf(firstWishlistItem));
-
-            // ✅ Wait for the success message
+            //  Wait for the success message
             By successMessageLocator = By.cssSelector("div.message-success.success.message");
             WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(successMessageLocator));
-
             System.out.println("Success Message: " + successMessage.getText());
-            return successMessage.isDisplayed();  // ✅ Return true if success message appears
+            return successMessage.isDisplayed();
         } catch (Exception e) {
             System.out.println("Failed to remove item from wishlist: " + e.getMessage());
-            return false;  // ❌ Return false if item removal fails
+            return false;  //
         }
     }
 
@@ -141,50 +135,44 @@ public class WishlistPage {
         Actions actions = new Actions(driver);
 
         try {
-            // ✅ Ensure the wishlist page is loaded properly
+            //  Ensure the wishlist page is loaded properly
             wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("ol.product-items")));
 
-            // ✅ Check if there are any wishlist items
+            //  Check if there are any wishlist items
             List<WebElement> wishlistItems = driver.findElements(By.cssSelector("li.product-item"));
             if (wishlistItems.isEmpty()) {
                 System.out.println("No items in the wishlist to edit.");
-                return false;  // ❌ Nothing to edit
+                return false;  //
             }
             Thread.sleep(3000);
-            // ✅ Get the first wishlist item
+            //  Get the first wishlist item
             WebElement firstWishlistItem = wishlistItems.get(0);
-System.out.println(firstWishlistItem.getText());
-            // ✅ Hover over the product image
+            System.out.println(firstWishlistItem.getText());
+            //  Hover over the product image
             WebElement productImage = firstWishlistItem.findElement(By.cssSelector("a.product-item-photo"));
             actions.moveToElement(productImage).perform();
-            Thread.sleep(3000); // Allow hover effect (can replace with explicit wait)
+            Thread.sleep(3000);
 
-            // ✅ Click "Edit" button on the first item
             WebElement editButton = firstWishlistItem.findElement(By.cssSelector("a.action.edit[href*='/wishlist/index/configure/']"));
             editButton.click();
             System.out.println(editButton.getText());
-            // ✅ Wait for the redirection to the product page
             wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".swatch-option.text")));
 
-            // ✅ Check if previously selected options are still highlighted
             boolean isOptionSelected = driver.findElements(By.cssSelector(".swatch-option.text.selected")).size() > 0;
 
             if (!isOptionSelected) {
-                System.out.println("❌ Bug: Previously selected options are NOT highlighted.");
+                System.out.println("Bug: Previously selected options are NOT highlighted.");
             } else {
                 System.out.println("✅ Test Passed: Previously selected options are correctly highlighted.");
             }
 
-            return isOptionSelected; // ✅ Return true if options are selected, false if not
+            return isOptionSelected;
         } catch (Exception e) {
             System.out.println("Failed to edit item in wishlist: " + e.getMessage());
-            return false;  // ❌ Return false if the process fails
+            return false;
         }
     }
 
-
-
-    // ✅ **Click Share Wishlist Button**
     public void clickShareWishlist() {
         wait.until(ExpectedConditions.elementToBeClickable(shareWishlistButton)).click();
     }
@@ -192,26 +180,24 @@ System.out.println(firstWishlistItem.getText());
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         Actions actions = new Actions(driver);
 
-        // Wait until the first product image is visible
         WebElement productImage = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.cssSelector("a.product.photo.product-item-photo"))); // First product image locator
 
-        // Perform hover action
         actions.moveToElement(productImage).perform();
     }
-    // ✅ **Enter recipient emails**
+
     public void enterEmails(String emails) {
         WebElement emailField = wait.until(ExpectedConditions.visibilityOfElementLocated(emailInput));
         emailField.clear();
         emailField.sendKeys(emails);
     }
 
-    // ✅ **Click Send**
+    //for share wishlist
     public void clickSend() {
         wait.until(ExpectedConditions.elementToBeClickable(sendButton)).click();
     }
 
-    // ✅ **Check if Wishlist is Shared Successfully**
+
     public boolean isWishlistSharedSuccessfully() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(successShareMessage)).isDisplayed();
     }

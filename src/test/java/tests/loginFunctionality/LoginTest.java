@@ -7,8 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import pom.TestUtils;
-public class actions {
-    @Test
+public class LoginTest {
+    @Test(priority = 1,description = "LF_401: test correct credentials ")
     // correct credentials scenario
     //*** in this test case: (testWrongCredentials)
     // -The test will pass if the success message is displayed when correct credentials are entered and when the expected url redirection match the actual url redirection
@@ -16,7 +16,6 @@ public class actions {
     //or if the expected url redirection is different than the actual url redirection
     public void testCorrectCredentials() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-
         LoginPage loginPage = new LoginPage(driver);
         loginPage.open();
         // Perform login

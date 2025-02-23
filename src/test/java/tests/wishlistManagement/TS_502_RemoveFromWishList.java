@@ -20,7 +20,7 @@ public class TS_502_RemoveFromWishList {
         loginPage = new LoginPage(driver);
         wishlistPage = new WishlistPage(driver);
     }
-    @Test
+    @Test(priority = 1,dependsOnMethods = "addFromProductPageWithDetails")
     public void WL009_removeItemFromWishlist() throws InterruptedException {
         if(loginPage.isUserLoggedIn()){
             loginPage.logout();

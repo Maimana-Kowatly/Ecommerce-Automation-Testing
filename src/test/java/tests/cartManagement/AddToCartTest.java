@@ -8,9 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.HomePage;
-import pages.ProductPage;
 import pom.CartPage;
+import pom.HomePage;
+import pom.ProductPage;
 
 
 public class AddToCartTest extends BaseTest {

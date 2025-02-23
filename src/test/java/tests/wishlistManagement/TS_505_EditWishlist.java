@@ -20,7 +20,7 @@ public class TS_505_EditWishlist {
         loginPage = new LoginPage(driver);
         wishlistPage = new WishlistPage(driver);
     }
-    @Test (priority = 1,description = "WL_014 ensure the current data is selected when opening the edit (bordered size,color)")
+    @Test (priority = 1,description = "WL_014 ensure the current data is selected when opening the edit (bordered size,color)",dependsOnMethods = "addFromProductPageWithDetails")
     public void editItemInWishList() throws InterruptedException {
         if (loginPage.isUserLoggedIn()) {
             loginPage.logout();

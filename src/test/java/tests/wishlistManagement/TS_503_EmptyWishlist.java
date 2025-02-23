@@ -37,38 +37,32 @@ public class TS_503_EmptyWishlist {
     }
 
 
-@Test (priority = 2)
-    public void removeLastItemFromWishlist() {
+@Test (priority = 2,description = "",dependsOnMethods = "WL009_removeItemFromWishlist")
+    public void emptyTheWishlist() {
     driver.navigate().refresh();
         if (!wishlistPage.isWishlistPageLoaded()) {
-            System.out.println("❌ Wishlist page failed to load.");
+            System.out.println("Wishlist page failed to load.");
             return;
         }
     driver.get("https://magento.softwaretestingboard.com/wishlist");
         // Step 1: Verify the wishlist contains at least one item
         if (wishlistPage.getWishlistItemCount() == 0) {
-            System.out.println("❌ Wishlist is already empty, cannot remove last item.");
+            System.out.println("Wishlist is already empty, cannot remove last item.");
             return;
         }
-
-        System.out.println("✅ Wishlist contains items, proceeding with removal.");
-
+        System.out.println("Wishlist contains items, proceeding with removal.");
         // Step 2: Remove the last item
         wishlistPage.removeFirstItemFromWishlist();
         wishlistPage.removeFirstItemFromWishlist();
-//        wishlistPage.removeLastItem();
-        // Step 3: Verify warning message appears
         if (wishlistPage.isWishlistEmptyMessageDisplayed()) {
-            System.out.println("✅ Warning message displayed: 'You have no items in your wish list.'");
+            System.out.println("Warning message displayed: 'You have no items in your wish list.'");
         } else {
-            System.out.println("❌ Expected warning message NOT displayed.");
+            System.out.println(" Expected warning message NOT displayed.");
         }
-
-        // Step 4: Ensure the wishlist is now empty
         if (wishlistPage.getWishlistItemCount() == 0) {
-            System.out.println("✅ Wishlist is now empty.");
+            System.out.println("Wishlist is now empty.");
         } else {
-            System.out.println("❌ Wishlist still contains items after removal.");
+            System.out.println("Wishlist still contains items after removal.");
         }
     }
 

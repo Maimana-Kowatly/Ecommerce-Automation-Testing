@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.Color;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.ProductPage;
 import pom.CartPage;
+import pom.ProductPage;
 import utils.CartHelper;
 
 public class UpdateCartTest extends BaseTest {

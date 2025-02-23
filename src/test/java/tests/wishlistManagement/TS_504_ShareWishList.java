@@ -35,11 +35,11 @@ public class TS_504_ShareWishList {
         // Navigate to Wishlist page
         driver.get("https://magento.softwaretestingboard.com/wishlist");
     }
-    @Test
+    @Test(priority = 1,dependsOnMethods = "addFromProductPageWithDetails")
     public void shareWishListWithValidEmails() {
         shareWishList("m.kowatli97@gmail.com",true);
     }
-    @Test
+    @Test(priority = 2,dependsOnMethods = "addFromProductPageWithDetails")
     public void shareWishListWithInvalidEmail() {
         shareWishList("test1@te",false);
         // ✅ Verify that the error message appears
