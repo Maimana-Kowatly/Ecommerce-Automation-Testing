@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="31" failed="6" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T00:49:29 GMT+04:00" name="Ecommerce-testing" finished-at="2025-02-24T01:04:23 GMT+04:00" duration-ms="893445">
+    <groups>
+    </groups>
+    <test started-at="2025-02-24T00:49:29 GMT+04:00" name="Cart Management Tests" finished-at="2025-02-24T00:59:56 GMT+04:00" duration-ms="626139">
+      <class name="tests.cartManagement.NavigateToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.NavigateToCartTest@7b9a4292]" started-at="2025-02-24T00:56:34 GMT+04:00" name="setUp" finished-at="2025-02-24T00:56:41 GMT+04:00" duration-ms="6540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigateFromCartIcon()[pri:3, instance:tests.cartManagement.NavigateToCartTest@7b9a4292]" started-at="2025-02-24T00:56:41 GMT+04:00" name="testNavigateFromCartIcon" description="TC-7.1 Navigate to cart from cart icon" finished-at="2025-02-24T00:56:59 GMT+04:00" duration-ms="17603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateFromCartIcon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.NavigateToCartTest@7b9a4292]" started-at="2025-02-24T00:56:59 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:56:59 GMT+04:00" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.NavigateToCartTest@7b9a4292]" started-at="2025-02-24T00:56:59 GMT+04:00" name="setUp" finished-at="2025-02-24T00:57:04 GMT+04:00" duration-ms="5702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigateFromSuccessMessage()[pri:3, instance:tests.cartManagement.NavigateToCartTest@7b9a4292]" started-at="2025-02-24T00:57:04 GMT+04:00" name="testNavigateFromSuccessMessage" description="TC-7.2 Navigate to cart from success message" finished-at="2025-02-24T00:57:22 GMT+04:00" duration-ms="17616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateFromSuccessMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.NavigateToCartTest@7b9a4292]" started-at="2025-02-24T00:57:22 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:57:22 GMT+04:00" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cartManagement.NavigateToCartTest -->
+      <class name="tests.cartManagement.CouponValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.CouponValidationTest@4a94ee4]" started-at="2025-02-24T00:53:13 GMT+04:00" name="setUp" finished-at="2025-02-24T00:53:21 GMT+04:00" duration-ms="8338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidCoupon()[pri:1, instance:tests.cartManagement.CouponValidationTest@4a94ee4]" started-at="2025-02-24T00:53:21 GMT+04:00" name="testValidCoupon" description="TC-5.1 Enter Valid Coupon" finished-at="2025-02-24T00:53:21 GMT+04:00" duration-ms="3" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the valid coupon test as Cause there is no available codes.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the valid coupon test as Cause there is no available codes.
+at tests.cartManagement.CouponValidationTest.testValidCoupon(CouponValidationTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidCoupon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.CouponValidationTest@4a94ee4]" started-at="2025-02-24T00:53:21 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:53:21 GMT+04:00" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.CouponValidationTest@4a94ee4]" started-at="2025-02-24T00:54:59 GMT+04:00" name="setUp" finished-at="2025-02-24T00:55:04 GMT+04:00" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCoupon()[pri:2, instance:tests.cartManagement.CouponValidationTest@4a94ee4]" started-at="2025-02-24T00:55:04 GMT+04:00" name="testInvalidCoupon" description="TC-5.2 Enter Invalid Coupon" finished-at="2025-02-24T00:55:25 GMT+04:00" duration-ms="20824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCoupon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.CouponValidationTest@4a94ee4]" started-at="2025-02-24T00:55:25 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:55:25 GMT+04:00" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cartManagement.CouponValidationTest -->
+      <class name="tests.cartManagement.MoveToWishListTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.MoveToWishListTest@4cc451f2]" started-at="2025-02-24T00:52:42 GMT+04:00" name="setUp" finished-at="2025-02-24T00:52:45 GMT+04:00" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMoveToWishlistAsLoggedInUser()[pri:1, instance:tests.cartManagement.MoveToWishListTest@4cc451f2]" started-at="2025-02-24T00:52:45 GMT+04:00" name="testMoveToWishlistAsLoggedInUser" description="TC-8.1 Move item from cart to wishlist as Logged-in user" finished-at="2025-02-24T00:53:13 GMT+04:00" duration-ms="27951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoveToWishlistAsLoggedInUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.MoveToWishListTest@4cc451f2]" started-at="2025-02-24T00:53:13 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:53:13 GMT+04:00" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.MoveToWishListTest@4cc451f2]" started-at="2025-02-24T00:55:53 GMT+04:00" name="setUp" finished-at="2025-02-24T00:56:04 GMT+04:00" duration-ms="11655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMoveToWishlistAsGuestUser()[pri:2, instance:tests.cartManagement.MoveToWishListTest@4cc451f2]" started-at="2025-02-24T00:56:04 GMT+04:00" name="testMoveToWishlistAsGuestUser" description="TC-8.2 Move to wishlist link should not appear for Guest user" finished-at="2025-02-24T00:56:34 GMT+04:00" duration-ms="29687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoveToWishlistAsGuestUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.MoveToWishListTest@4cc451f2]" started-at="2025-02-24T00:56:34 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:56:34 GMT+04:00" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cartManagement.MoveToWishListTest -->
+      <class name="tests.cartManagement.AddToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:49:29 GMT+04:00" name="setUp" finished-at="2025-02-24T00:49:37 GMT+04:00" duration-ms="7800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromCategoryPageValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float)[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:49:37 GMT+04:00" name="testAddItemFromCategoryPageValidInputs" description="TC-1.2 ADD Item to the Cart From Category Page with valid inputs" data-provider="productsWithOptions" finished-at="2025-02-24T00:49:54 GMT+04:00" duration-ms="16633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ui-id-4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Olivia 1/4 Zip Light Jacket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Purple]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromCategoryPageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:49:54 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:49:54 GMT+04:00" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:49:54 GMT+04:00" name="setUp" finished-at="2025-02-24T00:49:58 GMT+04:00" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromCategoryPageValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float)[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:49:58 GMT+04:00" name="testAddItemFromCategoryPageValidInputs" description="TC-1.2 ADD Item to the Cart From Category Page with valid inputs" data-provider="productsWithOptions" finished-at="2025-02-24T00:50:17 GMT+04:00" duration-ms="18902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ui-id-4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Neve Studio Dance Jacket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromCategoryPageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:50:17 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:50:17 GMT+04:00" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:50:17 GMT+04:00" name="setUp" finished-at="2025-02-24T00:50:24 GMT+04:00" duration-ms="7427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromCategoryPageValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float)[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:50:24 GMT+04:00" name="testAddItemFromCategoryPageValidInputs" description="TC-1.2 ADD Item to the Cart From Category Page with valid inputs" data-provider="productsWithOptions" finished-at="2025-02-24T00:50:41 GMT+04:00" duration-ms="16876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ui-id-4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jade Yoga Jacket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromCategoryPageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:50:41 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:50:42 GMT+04:00" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:50:42 GMT+04:00" name="setUp" finished-at="2025-02-24T00:50:48 GMT+04:00" duration-ms="6151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromCategoryPageValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float)[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:50:48 GMT+04:00" name="testAddItemFromCategoryPageValidInputs" description="TC-1.2 ADD Item to the Cart From Category Page with valid inputs" data-provider="productsWithOptions" finished-at="2025-02-24T00:51:04 GMT+04:00" duration-ms="15930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ui-id-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tees]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ryker LumaTech™ Tee (V-neck)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gray]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromCategoryPageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:51:04 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:51:04 GMT+04:00" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:51:04 GMT+04:00" name="setUp" finished-at="2025-02-24T00:51:11 GMT+04:00" duration-ms="6737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromHomePageValidInputs()[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:51:11 GMT+04:00" name="testAddItemFromHomePageValidInputs" description="TC-1.1 ADD Item to the Cart From Home Page with valid inputs" finished-at="2025-02-24T00:52:07 GMT+04:00" duration-ms="55873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromHomePageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:07 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:52:07 GMT+04:00" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:07 GMT+04:00" name="setUp" finished-at="2025-02-24T00:52:10 GMT+04:00" duration-ms="3603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromProductPageValidInputs(java.lang.String,java.lang.String,java.lang.String,float,boolean,java.lang.String,java.lang.String)[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:10 GMT+04:00" name="testAddItemFromProductPageValidInputs" description="TC-1.3 ADD Item to the Cart From Product Details Page with valid inputs" data-provider="products" finished-at="2025-02-24T00:52:28 GMT+04:00" duration-ms="17181" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a#ui-id-6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a#ui-id-25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Push It Messenger Bag]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://magento.softwaretestingboard.com/push-it-messenger-bag.html]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".message-success"}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162248c57e090c9d8709b27239fb7cf7, findElement {value=.message-success, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59606/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 162248c57e090c9d8709b27239fb7cf7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".message-success"}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162248c57e090c9d8709b27239fb7cf7, findElement {value=.message-success, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59606/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 162248c57e090c9d8709b27239fb7cf7
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pom.ProductPage.getSuccessMessageColor(ProductPage.java:24)
+at tests.cartManagement.AddToCartTest.verifyAddProductToCartFromProductPage(AddToCartTest.java:122)
+at tests.cartManagement.AddToCartTest.testAddItemFromProductPageValidInputs(AddToCartTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromProductPageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:28 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:52:28 GMT+04:00" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:28 GMT+04:00" name="setUp" finished-at="2025-02-24T00:52:33 GMT+04:00" duration-ms="4772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromProductPageValidInputs(java.lang.String,java.lang.String,java.lang.String,float,boolean,java.lang.String,java.lang.String)[pri:1, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:33 GMT+04:00" name="testAddItemFromProductPageValidInputs" description="TC-1.3 ADD Item to the Cart From Product Details Page with valid inputs" data-provider="products" finished-at="2025-02-24T00:52:42 GMT+04:00" duration-ms="9021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a#ui-id-6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a#ui-id-26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Set of Sprite Yoga Straps]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://magento.softwaretestingboard.com/set-of-sprite-yoga-straps.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromProductPageValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:52:42 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:52:42 GMT+04:00" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:21 GMT+04:00" name="setUp" finished-at="2025-02-24T00:53:27 GMT+04:00" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromCategoryPageInValidInputs()[pri:2, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:27 GMT+04:00" name="testAddItemFromCategoryPageInValidInputs" description="TC-1.5 ADD Item to the Cart From Category Page with invalid inputs" finished-at="2025-02-24T00:53:38 GMT+04:00" duration-ms="11414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromCategoryPageInValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:38 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:53:38 GMT+04:00" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:38 GMT+04:00" name="setUp" finished-at="2025-02-24T00:53:45 GMT+04:00" duration-ms="6771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromHomePageInValidInputs()[pri:2, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:45 GMT+04:00" name="testAddItemFromHomePageInValidInputs" description="TC-1.4 ADD Item to the Cart From Home Page with invalid inputs" finished-at="2025-02-24T00:53:56 GMT+04:00" duration-ms="11227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromHomePageInValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:56 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:53:56 GMT+04:00" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:53:56 GMT+04:00" name="setUp" finished-at="2025-02-24T00:54:02 GMT+04:00" duration-ms="5538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemFromProductPageInValidInputs()[pri:2, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:54:02 GMT+04:00" name="testAddItemFromProductPageInValidInputs" description="TC-1.6 ADD Item to the Cart From Product Details Page with invalid inputs" finished-at="2025-02-24T00:54:10 GMT+04:00" duration-ms="7997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemFromProductPageInValidInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.AddToCartTest@20deea7f]" started-at="2025-02-24T00:54:10 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:54:10 GMT+04:00" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cartManagement.AddToCartTest -->
+      <class name="tests.cartManagement.RemoveFromCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:57:22 GMT+04:00" name="setUp" finished-at="2025-02-24T00:57:29 GMT+04:00" duration-ms="6628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveAllItemsFromCart()[pri:4, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:57:29 GMT+04:00" name="testRemoveAllItemsFromCart" description="TC-3.2 Remove All Items from Cart" finished-at="2025-02-24T00:58:05 GMT+04:00" duration-ms="35830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveAllItemsFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:58:05 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:58:05 GMT+04:00" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:58:05 GMT+04:00" name="setUp" finished-at="2025-02-24T00:58:17 GMT+04:00" duration-ms="11985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCart(java.lang.String,java.lang.String,java.lang.String,double)[pri:4, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:58:17 GMT+04:00" name="testRemoveItemFromCart" description="TC-3.1 Remove Item from Cart" data-provider="productOptions" finished-at="2025-02-24T00:58:44 GMT+04:00" duration-ms="27498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Purple]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Olivia 1/4 Zip Light Jacket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[77.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:58:44 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:58:45 GMT+04:00" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:58:45 GMT+04:00" name="setUp" finished-at="2025-02-24T00:58:53 GMT+04:00" duration-ms="8570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCart(java.lang.String,java.lang.String,java.lang.String,double)[pri:4, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:58:53 GMT+04:00" name="testRemoveItemFromCart" description="TC-3.1 Remove Item from Cart" data-provider="productOptions" finished-at="2025-02-24T00:59:21 GMT+04:00" duration-ms="27580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Neve Studio Dance Jacket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[69.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:59:21 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:59:21 GMT+04:00" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:59:21 GMT+04:00" name="setUp" finished-at="2025-02-24T00:59:31 GMT+04:00" duration-ms="9736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCartFromMultipleItems()[pri:4, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:59:31 GMT+04:00" name="testRemoveItemFromCartFromMultipleItems" description="TC-3.1 Remove Item from Cart" finished-at="2025-02-24T00:59:55 GMT+04:00" duration-ms="24588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCartFromMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.RemoveFromCartTest@4fb0f2b9]" started-at="2025-02-24T00:59:55 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:59:56 GMT+04:00" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cartManagement.RemoveFromCartTest -->
+      <class name="tests.cartManagement.CartPersistenceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:54:10 GMT+04:00" name="setUp" finished-at="2025-02-24T00:54:20 GMT+04:00" duration-ms="9553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGuestToLoggedInCartSync()[pri:2, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:54:20 GMT+04:00" name="testGuestToLoggedInCartSync" description="TC-4.3 Sync Cart from Guest to Logged-in" finished-at="2025-02-24T00:54:34 GMT+04:00" duration-ms="14052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestToLoggedInCartSync -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:54:34 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:54:34 GMT+04:00" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:54:34 GMT+04:00" name="setUp" finished-at="2025-02-24T00:54:41 GMT+04:00" duration-ms="7093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGuestUserCartPersistence()[pri:2, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:54:41 GMT+04:00" name="testGuestUserCartPersistence" description="TC-4.1 Verify cart persistence for a guest user" finished-at="2025-02-24T00:54:59 GMT+04:00" duration-ms="17615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestUserCartPersistence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:54:59 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:54:59 GMT+04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:55:25 GMT+04:00" name="setUp" finished-at="2025-02-24T00:55:28 GMT+04:00" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoggedInUserCartPersistence()[pri:2, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:55:28 GMT+04:00" name="testLoggedInUserCartPersistence" description="TC-4.2 Verify cart persistence for a logged-in user" finished-at="2025-02-24T00:55:53 GMT+04:00" duration-ms="24982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoggedInUserCartPersistence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cartManagement.CartPersistenceTest@79924b]" started-at="2025-02-24T00:55:53 GMT+04:00" name="tearDown" finished-at="2025-02-24T00:55:53 GMT+04:00" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cartManagement.CartPersistenceTest -->
+    </test> <!-- Cart Management Tests -->
+    <test started-at="2025-02-24T00:59:56 GMT+04:00" name="WishList Management Tests" finished-at="2025-02-24T01:03:00 GMT+04:00" duration-ms="184470">
+      <class name="tests.wishlistManagement.TS_503_EmptyWishlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.wishlistManagement.TS_503_EmptyWishlist@4135c3b]" started-at="2025-02-24T00:59:59 GMT+04:00" name="setup" finished-at="2025-02-24T01:00:01 GMT+04:00" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginAndNavigateToWishlist()[pri:0, instance:tests.wishlistManagement.TS_503_EmptyWishlist@4135c3b]" started-at="2025-02-24T01:02:04 GMT+04:00" name="loginAndNavigateToWishlist" finished-at="2025-02-24T01:02:13 GMT+04:00" duration-ms="8989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndNavigateToWishlist -->
+        <test-method signature="emptyTheWishlist()[pri:2, instance:tests.wishlistManagement.TS_503_EmptyWishlist@4135c3b]" started-at="2025-02-24T01:02:13 GMT+04:00" name="emptyTheWishlist" finished-at="2025-02-24T01:02:26 GMT+04:00" depends-on-methods="WL009_removeItemFromWishlist" duration-ms="12822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyTheWishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.wishlistManagement.TS_503_EmptyWishlist@4135c3b]" started-at="2025-02-24T01:03:00 GMT+04:00" name="tearDown" finished-at="2025-02-24T01:03:00 GMT+04:00" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.wishlistManagement.TS_503_EmptyWishlist -->
+      <class name="tests.wishlistManagement.TS_501_AddToWishlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.wishlistManagement.TS_501_AddToWishlist@49e53c76]" started-at="2025-02-24T00:59:56 GMT+04:00" name="setup" finished-at="2025-02-24T00:59:57 GMT+04:00" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToWishlistWithoutLogin()[pri:1, instance:tests.wishlistManagement.TS_501_AddToWishlist@49e53c76]" started-at="2025-02-24T01:00:06 GMT+04:00" name="addToWishlistWithoutLogin" description="TS_501 WL_001 test add to wish list without login" finished-at="2025-02-24T01:00:20 GMT+04:00" duration-ms="14587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishlistWithoutLogin -->
+        <test-method signature="addFromCategoryListWithDetails()[pri:2, instance:tests.wishlistManagement.TS_501_AddToWishlist@49e53c76]" started-at="2025-02-24T01:00:20 GMT+04:00" name="addFromCategoryListWithDetails" description="TS_501,WL002 add from outside from the lists (category or hot seller ...) should not show the see details in the wish list page" finished-at="2025-02-24T01:00:34 GMT+04:00" duration-ms="14091" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wishlist page did NOT load after adding item! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wishlist page did NOT load after adding item! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.wishlistManagement.TS_501_AddToWishlist.addFromCategoryListWithDetails(TS_501_AddToWishlist.java:105)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFromCategoryListWithDetails -->
+        <test-method signature="addFromProductPageWithoutDetails()[pri:3, instance:tests.wishlistManagement.TS_501_AddToWishlist@49e53c76]" started-at="2025-02-24T01:00:34 GMT+04:00" name="addFromProductPageWithoutDetails" description="TS_501,WL_003 from the product page add to wish list without details, this will ensure that its optional to add to wishlist with/without color and size " finished-at="2025-02-24T01:00:48 GMT+04:00" duration-ms="14218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFromProductPageWithoutDetails -->
+        <test-method signature="addFromProductPageWithDetails()[pri:4, instance:tests.wishlistManagement.TS_501_AddToWishlist@49e53c76]" started-at="2025-02-24T01:00:48 GMT+04:00" name="addFromProductPageWithDetails" description="TS_501, WL_004 from the product page, add an item with color and size" finished-at="2025-02-24T01:00:57 GMT+04:00" duration-ms="8256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFromProductPageWithDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.wishlistManagement.TS_501_AddToWishlist@49e53c76]" started-at="2025-02-24T01:02:59 GMT+04:00" name="tearDown" finished-at="2025-02-24T01:02:59 GMT+04:00" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.wishlistManagement.TS_501_AddToWishlist -->
+      <class name="tests.wishlistManagement.TS_504_ShareWishList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.wishlistManagement.TS_504_ShareWishList@313ac989]" started-at="2025-02-24T01:00:01 GMT+04:00" name="setup" finished-at="2025-02-24T01:00:03 GMT+04:00" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginAndNavigateToWishlist()[pri:0, instance:tests.wishlistManagement.TS_504_ShareWishList@313ac989]" started-at="2025-02-24T01:01:44 GMT+04:00" name="loginAndNavigateToWishlist" finished-at="2025-02-24T01:01:54 GMT+04:00" duration-ms="9628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndNavigateToWishlist -->
+        <test-method signature="shareWishListWithValidEmails()[pri:1, instance:tests.wishlistManagement.TS_504_ShareWishList@313ac989]" started-at="2025-02-24T01:01:54 GMT+04:00" name="shareWishListWithValidEmails" finished-at="2025-02-24T01:02:04 GMT+04:00" depends-on-methods="addFromProductPageWithDetails" duration-ms="10363" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.cssSelector: button.action.share[title='Share Wish List'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62176/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f9c91b82b6f7fa3e6a2b52a2c666d4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.action.share[title='Share Wish List'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62176/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f9c91b82b6f7fa3e6a2b52a2c666d4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pom.WishlistPage.clickShareWishlist(WishlistPage.java:177)
+at tests.wishlistManagement.TS_504_ShareWishList.shareWishList(TS_504_ShareWishList.java:54)
+at tests.wishlistManagement.TS_504_ShareWishList.shareWishListWithValidEmails(TS_504_ShareWishList.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareWishListWithValidEmails -->
+        <test-method is-config="true" signature="loginAndNavigateToWishlist()[pri:0, instance:tests.wishlistManagement.TS_504_ShareWishList@313ac989]" started-at="2025-02-24T01:02:26 GMT+04:00" name="loginAndNavigateToWishlist" finished-at="2025-02-24T01:02:49 GMT+04:00" duration-ms="23003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndNavigateToWishlist -->
+        <test-method signature="shareWishListWithInvalidEmail()[pri:2, instance:tests.wishlistManagement.TS_504_ShareWishList@313ac989]" started-at="2025-02-24T01:02:49 GMT+04:00" name="shareWishListWithInvalidEmail" finished-at="2025-02-24T01:02:59 GMT+04:00" depends-on-methods="addFromProductPageWithDetails" duration-ms="10331" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.cssSelector: button.action.share[title='Share Wish List'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62176/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f9c91b82b6f7fa3e6a2b52a2c666d4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.action.share[title='Share Wish List'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62176/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f9c91b82b6f7fa3e6a2b52a2c666d4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pom.WishlistPage.clickShareWishlist(WishlistPage.java:177)
+at tests.wishlistManagement.TS_504_ShareWishList.shareWishList(TS_504_ShareWishList.java:54)
+at tests.wishlistManagement.TS_504_ShareWishList.shareWishListWithInvalidEmail(TS_504_ShareWishList.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareWishListWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.wishlistManagement.TS_504_ShareWishList@313ac989]" started-at="2025-02-24T01:03:00 GMT+04:00" name="tearDown" finished-at="2025-02-24T01:03:00 GMT+04:00" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.wishlistManagement.TS_504_ShareWishList -->
+      <class name="tests.wishlistManagement.TS_502_RemoveFromWishList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.wishlistManagement.TS_502_RemoveFromWishList@2a65fe7c]" started-at="2025-02-24T00:59:57 GMT+04:00" name="setup" finished-at="2025-02-24T00:59:59 GMT+04:00" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="WL009_removeItemFromWishlist()[pri:1, instance:tests.wishlistManagement.TS_502_RemoveFromWishList@2a65fe7c]" started-at="2025-02-24T01:00:57 GMT+04:00" name="WL009_removeItemFromWishlist" finished-at="2025-02-24T01:01:17 GMT+04:00" depends-on-methods="addFromProductPageWithDetails" duration-ms="19865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WL009_removeItemFromWishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.wishlistManagement.TS_502_RemoveFromWishList@2a65fe7c]" started-at="2025-02-24T01:02:59 GMT+04:00" name="tearDown" finished-at="2025-02-24T01:03:00 GMT+04:00" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.wishlistManagement.TS_502_RemoveFromWishList -->
+      <class name="tests.wishlistManagement.TS_505_EditWishlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.wishlistManagement.TS_505_EditWishlist@4562e04d]" started-at="2025-02-24T01:00:03 GMT+04:00" name="setup" finished-at="2025-02-24T01:00:06 GMT+04:00" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editItemInWishList()[pri:1, instance:tests.wishlistManagement.TS_505_EditWishlist@4562e04d]" started-at="2025-02-24T01:01:17 GMT+04:00" name="editItemInWishList" description="WL_014 ensure the current data is selected when opening the edit (bordered size,color)" finished-at="2025-02-24T01:01:44 GMT+04:00" depends-on-methods="addFromProductPageWithDetails" duration-ms="27580" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Test Failed: Previously selected options are NOT highlighted! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Test Failed: Previously selected options are NOT highlighted! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.wishlistManagement.TS_505_EditWishlist.editItemInWishList(TS_505_EditWishlist.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItemInWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.wishlistManagement.TS_505_EditWishlist@4562e04d]" started-at="2025-02-24T01:03:00 GMT+04:00" name="tearDown" finished-at="2025-02-24T01:03:00 GMT+04:00" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.wishlistManagement.TS_505_EditWishlist -->
+    </test> <!-- WishList Management Tests -->
+    <test started-at="2025-02-24T01:03:00 GMT+04:00" name="Login Functionality" finished-at="2025-02-24T01:04:23 GMT+04:00" duration-ms="82754">
+      <class name="tests.loginFunctionality.LoginTest">
+        <test-method signature="LoginWithEmptyFields()[pri:0, instance:tests.loginFunctionality.LoginTest@14cd1699]" started-at="2025-02-24T01:03:00 GMT+04:00" name="LoginWithEmptyFields" finished-at="2025-02-24T01:03:18 GMT+04:00" duration-ms="17837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyFields -->
+        <test-method signature="testInsensivity()[pri:0, instance:tests.loginFunctionality.LoginTest@14cd1699]" started-at="2025-02-24T01:03:18 GMT+04:00" name="testInsensivity" finished-at="2025-02-24T01:03:29 GMT+04:00" duration-ms="10905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsensivity -->
+        <test-method signature="testInvalidEmailFormat()[pri:0, instance:tests.loginFunctionality.LoginTest@14cd1699]" started-at="2025-02-24T01:03:29 GMT+04:00" name="testInvalidEmailFormat" finished-at="2025-02-24T01:03:37 GMT+04:00" duration-ms="8223" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message was not displayed for empty fields.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message was not displayed for empty fields.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.loginFunctionality.LoginTest.testInvalidEmailFormat(LoginTest.java:157)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method signature="testLogout()[pri:0, instance:tests.loginFunctionality.LoginTest@14cd1699]" started-at="2025-02-24T01:03:37 GMT+04:00" name="testLogout" finished-at="2025-02-24T01:04:01 GMT+04:00" duration-ms="23435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method signature="testWrongCredentials()[pri:0, instance:tests.loginFunctionality.LoginTest@14cd1699]" started-at="2025-02-24T01:04:01 GMT+04:00" name="testWrongCredentials" finished-at="2025-02-24T01:04:12 GMT+04:00" duration-ms="11191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentials -->
+        <test-method signature="testCorrectCredentials()[pri:1, instance:tests.loginFunctionality.LoginTest@14cd1699]" started-at="2025-02-24T01:04:12 GMT+04:00" name="testCorrectCredentials" description="LF_401: test correct credentials " finished-at="2025-02-24T01:04:23 GMT+04:00" duration-ms="11157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectCredentials -->
+      </class> <!-- tests.loginFunctionality.LoginTest -->
+    </test> <!-- Login Functionality -->
+  </suite> <!-- Ecommerce-testing -->
+</testng-results>

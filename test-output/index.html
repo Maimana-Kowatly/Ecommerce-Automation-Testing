@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Ecommerce_testing" class="navigator-link">
+              <span class="suite-name border-failed">Ecommerce-testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Ecommerce_testing" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Ecommerce_testing" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Ecommerce_testing" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Ecommerce_testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Ecommerce_testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Ecommerce_testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Ecommerce_testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 6 failed,  1 skipped,  31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Ecommerce_testing" class="hide-methods failed suite-Ecommerce_testing"> (hide)</a> <!-- hide-methods failed suite-Ecommerce_testing -->
+                      <a href="#" panel-name="suite-Ecommerce_testing" class="show-methods failed suite-Ecommerce_testing"> (show)</a> <!-- show-methods failed suite-Ecommerce_testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Ecommerce_testing">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_501_AddToWishlist" class="method navigator-link" hash-for-method="addFromCategoryListWithDetails">addFromCategoryListWithDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_505_EditWishlist" class="method navigator-link" hash-for-method="editItemInWishList">editItemInWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_504_ShareWishList" class="method navigator-link" hash-for-method="shareWishListWithInvalidEmail">shareWishListWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_504_ShareWishList" class="method navigator-link" hash-for-method="shareWishListWithValidEmails">shareWishListWithValidEmails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-25, Push It Messenger Bag, 45, false, 1, https://magento.softwaretestingboard.com...)">testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-25, Push It Messenger Bag, 45, false, 1, https://magento.softwaretestingboard.com...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.loginFunctionality.LoginTest" class="method navigator-link" hash-for-method="testInvalidEmailFormat">testInvalidEmailFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Ecommerce_testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Ecommerce_testing" class="hide-methods skipped suite-Ecommerce_testing"> (hide)</a> <!-- hide-methods skipped suite-Ecommerce_testing -->
+                      <a href="#" panel-name="suite-Ecommerce_testing" class="show-methods skipped suite-Ecommerce_testing"> (show)</a> <!-- show-methods skipped suite-Ecommerce_testing -->
+                    </span>
+                    <div class="method-list-content skipped suite-Ecommerce_testing">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.CouponValidationTest" class="method navigator-link" hash-for-method="testValidCoupon">testValidCoupon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Ecommerce_testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Ecommerce_testing" class="hide-methods passed suite-Ecommerce_testing"> (hide)</a> <!-- hide-methods passed suite-Ecommerce_testing -->
+                      <a href="#" panel-name="suite-Ecommerce_testing" class="show-methods passed suite-Ecommerce_testing"> (show)</a> <!-- show-methods passed suite-Ecommerce_testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Ecommerce_testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.loginFunctionality.LoginTest" class="method navigator-link" hash-for-method="LoginWithEmptyFields">LoginWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_502_RemoveFromWishList" class="method navigator-link" hash-for-method="WL009_removeItemFromWishlist">WL009_removeItemFromWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_501_AddToWishlist" class="method navigator-link" hash-for-method="addFromProductPageWithDetails">addFromProductPageWithDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_501_AddToWishlist" class="method navigator-link" hash-for-method="addFromProductPageWithoutDetails">addFromProductPageWithoutDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_501_AddToWishlist" class="method navigator-link" hash-for-method="addToWishlistWithoutLogin">addToWishlistWithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.wishlistManagement.TS_503_EmptyWishlist" class="method navigator-link" hash-for-method="emptyTheWishlist">emptyTheWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromCategoryPageInValidInputs">testAddItemFromCategoryPageInValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Olivia 1/4 Zip Light Jacket, S, Purple, 77)">testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Olivia 1/4 Zip Light Jacket, S, Purple, 77)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Neve Studio Dance Jacket, S, Orange, 69)">testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Neve Studio Dance Jacket, S, Orange, 69)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Jade Yoga Jacket, L, Blue, 32)">testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Jade Yoga Jacket, L, Blue, 32)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromCategoryPageValidInputs(ui-id-5, Tees, Ryker LumaTech™ Tee (V-neck), M, Gray, 28)">testAddItemFromCategoryPageValidInputs(ui-id-5, Tees, Ryker LumaTech™ Tee (V-neck), M, Gray, 28)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromHomePageInValidInputs">testAddItemFromHomePageInValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromHomePageValidInputs">testAddItemFromHomePageValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromProductPageInValidInputs">testAddItemFromProductPageInValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.AddToCartTest" class="method navigator-link" hash-for-method="testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-26, Set of Sprite Yoga Straps, 17, true, 3, https://magento.softwaretestingboard....)">testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-26, Set of Sprite Yoga Straps, 17, true, 3, https://magento.softwaretestingboard....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.loginFunctionality.LoginTest" class="method navigator-link" hash-for-method="testCorrectCredentials">testCorrectCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.CartPersistenceTest" class="method navigator-link" hash-for-method="testGuestToLoggedInCartSync">testGuestToLoggedInCartSync</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.CartPersistenceTest" class="method navigator-link" hash-for-method="testGuestUserCartPersistence">testGuestUserCartPersistence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.loginFunctionality.LoginTest" class="method navigator-link" hash-for-method="testInsensivity">testInsensivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.CouponValidationTest" class="method navigator-link" hash-for-method="testInvalidCoupon">testInvalidCoupon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.CartPersistenceTest" class="method navigator-link" hash-for-method="testLoggedInUserCartPersistence">testLoggedInUserCartPersistence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.loginFunctionality.LoginTest" class="method navigator-link" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.MoveToWishListTest" class="method navigator-link" hash-for-method="testMoveToWishlistAsGuestUser">testMoveToWishlistAsGuestUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.MoveToWishListTest" class="method navigator-link" hash-for-method="testMoveToWishlistAsLoggedInUser">testMoveToWishlistAsLoggedInUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.NavigateToCartTest" class="method navigator-link" hash-for-method="testNavigateFromCartIcon">testNavigateFromCartIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.NavigateToCartTest" class="method navigator-link" hash-for-method="testNavigateFromSuccessMessage">testNavigateFromSuccessMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.RemoveFromCartTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart">testRemoveAllItemsFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.RemoveFromCartTest" class="method navigator-link" hash-for-method="testRemoveItemFromCart(S, Purple, Olivia 1/4 Zip Light Jacket, 77.0)">testRemoveItemFromCart(S, Purple, Olivia 1/4 Zip Light Jacket, 77.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.RemoveFromCartTest" class="method navigator-link" hash-for-method="testRemoveItemFromCart(XS, Orange, Neve Studio Dance Jacket, 69.0)">testRemoveItemFromCart(XS, Orange, Neve Studio Dance Jacket, 69.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.cartManagement.RemoveFromCartTest" class="method navigator-link" hash-for-method="testRemoveItemFromCartFromMultipleItems">testRemoveItemFromCartFromMultipleItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_testing" title="tests.loginFunctionality.LoginTest" class="method navigator-link" hash-for-method="testWrongCredentials">testWrongCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Ecommerce_testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Ecommerce_testing" class="panel Ecommerce_testing">
+          <div class="suite-Ecommerce_testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.wishlistManagement.TS_505_EditWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editItemInWishList">
+                  </a> <!-- editItemInWishList -->
+                  <span class="method-name">editItemInWishList</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Test Failed: Previously selected options are NOT highlighted! expected [true] but found [false]
+	at tests.wishlistManagement.TS_505_EditWishlist.editItemInWishList(TS_505_EditWishlist.java:36)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(WL_014 ensure the current data is selected when opening the edit (bordered size,color))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-failed -->
+          <div class="suite-Ecommerce_testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.cartManagement.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-25, Push It Messenger Bag, 45, false, 1, https://magento.softwaretestingboard.com...)">
+                  </a> <!-- testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-25, Push It Messenger Bag, 45, false, 1, https://magento.softwaretestingboard.com...) -->
+                  <span class="method-name">testAddItemFromProductPageValidInputs</span>
+                  <span class="parameters">(a#ui-id-6,a#ui-id-25,Push It Messenger Bag,45,false,1,https://magento.softwaretestingboard.com/push-it-messenger-bag.html)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.message-success&quot;}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162248c57e090c9d8709b27239fb7cf7, findElement {value=.message-success, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59606/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 162248c57e090c9d8709b27239fb7cf7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pom.ProductPage.getSuccessMessageColor(ProductPage.java:24)
+	at tests.cartManagement.AddToCartTest.verifyAddProductToCartFromProductPage(AddToCartTest.java:122)
+	at tests.cartManagement.AddToCartTest.testAddItemFromProductPageValidInputs(AddToCartTest.java:60)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-1.3 ADD Item to the Cart From Product Details Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-failed -->
+          <div class="suite-Ecommerce_testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.wishlistManagement.TS_504_ShareWishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareWishListWithInvalidEmail">
+                  </a> <!-- shareWishListWithInvalidEmail -->
+                  <span class="method-name">shareWishListWithInvalidEmail</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.action.share[title=&apos;Share Wish List&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62176/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f9c91b82b6f7fa3e6a2b52a2c666d4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pom.WishlistPage.clickShareWishlist(WishlistPage.java:177)
+	at tests.wishlistManagement.TS_504_ShareWishList.shareWishList(TS_504_ShareWishList.java:54)
+	at tests.wishlistManagement.TS_504_ShareWishList.shareWishListWithInvalidEmail(TS_504_ShareWishList.java:44)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareWishListWithValidEmails">
+                  </a> <!-- shareWishListWithValidEmails -->
+                  <span class="method-name">shareWishListWithValidEmails</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.action.share[title=&apos;Share Wish List&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62176/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f9c91b82b6f7fa3e6a2b52a2c666d4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pom.WishlistPage.clickShareWishlist(WishlistPage.java:177)
+	at tests.wishlistManagement.TS_504_ShareWishList.shareWishList(TS_504_ShareWishList.java:54)
+	at tests.wishlistManagement.TS_504_ShareWishList.shareWishListWithValidEmails(TS_504_ShareWishList.java:40)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-failed -->
+          <div class="suite-Ecommerce_testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.wishlistManagement.TS_501_AddToWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFromCategoryListWithDetails">
+                  </a> <!-- addFromCategoryListWithDetails -->
+                  <span class="method-name">addFromCategoryListWithDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: Wishlist page did NOT load after adding item! expected [true] but found [false]
+	at tests.wishlistManagement.TS_501_AddToWishlist.addFromCategoryListWithDetails(TS_501_AddToWishlist.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TS_501,WL002 add from outside from the lists (category or hot seller ...) should not show the see details in the wish list page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-failed -->
+          <div class="suite-Ecommerce_testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.loginFunctionality.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailFormat">
+                  </a> <!-- testInvalidEmailFormat -->
+                  <span class="method-name">testInvalidEmailFormat</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message was not displayed for empty fields.
+	at tests.loginFunctionality.LoginTest.testInvalidEmailFormat(LoginTest.java:157)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-failed -->
+          <div class="suite-Ecommerce_testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.cartManagement.CouponValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidCoupon">
+                  </a> <!-- testValidCoupon -->
+                  <span class="method-name">testValidCoupon</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the valid coupon test as Cause there is no available codes.
+	at tests.cartManagement.CouponValidationTest.testValidCoupon(CouponValidationTest.java:18)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-5.1 Enter Valid Coupon)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-skipped -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.cartManagement.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromCategoryPageInValidInputs">
+                  </a> <!-- testAddItemFromCategoryPageInValidInputs -->
+                  <span class="method-name">testAddItemFromCategoryPageInValidInputs</span>
+                  <em>
+(TC-1.5 ADD Item to the Cart From Category Page with invalid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Olivia 1/4 Zip Light Jacket, S, Purple, 77)">
+                  </a> <!-- testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Olivia 1/4 Zip Light Jacket, S, Purple, 77) -->
+                  <span class="method-name">testAddItemFromCategoryPageValidInputs</span>
+                  <span class="parameters">(ui-id-4,Jackets,Olivia 1/4 Zip Light Jacket,S,Purple,77)</span>
+                  <em>
+(TC-1.2 ADD Item to the Cart From Category Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Neve Studio Dance Jacket, S, Orange, 69)">
+                  </a> <!-- testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Neve Studio Dance Jacket, S, Orange, 69) -->
+                  <span class="method-name">testAddItemFromCategoryPageValidInputs</span>
+                  <span class="parameters">(ui-id-4,Jackets,Neve Studio Dance Jacket,S,Orange,69)</span>
+                  <em>
+(TC-1.2 ADD Item to the Cart From Category Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Jade Yoga Jacket, L, Blue, 32)">
+                  </a> <!-- testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Jade Yoga Jacket, L, Blue, 32) -->
+                  <span class="method-name">testAddItemFromCategoryPageValidInputs</span>
+                  <span class="parameters">(ui-id-4,Jackets,Jade Yoga Jacket,L,Blue,32)</span>
+                  <em>
+(TC-1.2 ADD Item to the Cart From Category Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromCategoryPageValidInputs(ui-id-5, Tees, Ryker LumaTech™ Tee (V-neck), M, Gray, 28)">
+                  </a> <!-- testAddItemFromCategoryPageValidInputs(ui-id-5, Tees, Ryker LumaTech™ Tee (V-neck), M, Gray, 28) -->
+                  <span class="method-name">testAddItemFromCategoryPageValidInputs</span>
+                  <span class="parameters">(ui-id-5,Tees,Ryker LumaTech™ Tee (V-neck),M,Gray,28)</span>
+                  <em>
+(TC-1.2 ADD Item to the Cart From Category Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromHomePageInValidInputs">
+                  </a> <!-- testAddItemFromHomePageInValidInputs -->
+                  <span class="method-name">testAddItemFromHomePageInValidInputs</span>
+                  <em>
+(TC-1.4 ADD Item to the Cart From Home Page with invalid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromHomePageValidInputs">
+                  </a> <!-- testAddItemFromHomePageValidInputs -->
+                  <span class="method-name">testAddItemFromHomePageValidInputs</span>
+                  <em>
+(TC-1.1 ADD Item to the Cart From Home Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromProductPageInValidInputs">
+                  </a> <!-- testAddItemFromProductPageInValidInputs -->
+                  <span class="method-name">testAddItemFromProductPageInValidInputs</span>
+                  <em>
+(TC-1.6 ADD Item to the Cart From Product Details Page with invalid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-26, Set of Sprite Yoga Straps, 17, true, 3, https://magento.softwaretestingboard....)">
+                  </a> <!-- testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-26, Set of Sprite Yoga Straps, 17, true, 3, https://magento.softwaretestingboard....) -->
+                  <span class="method-name">testAddItemFromProductPageValidInputs</span>
+                  <span class="parameters">(a#ui-id-6,a#ui-id-26,Set of Sprite Yoga Straps,17,true,3,https://magento.softwaretestingboard.com/set-of-sprite-yoga-straps.html)</span>
+                  <em>
+(TC-1.3 ADD Item to the Cart From Product Details Page with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.wishlistManagement.TS_502_RemoveFromWishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WL009_removeItemFromWishlist">
+                  </a> <!-- WL009_removeItemFromWishlist -->
+                  <span class="method-name">WL009_removeItemFromWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.wishlistManagement.TS_501_AddToWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFromProductPageWithDetails">
+                  </a> <!-- addFromProductPageWithDetails -->
+                  <span class="method-name">addFromProductPageWithDetails</span>
+                  <em>
+(TS_501, WL_004 from the product page, add an item with color and size)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFromProductPageWithoutDetails">
+                  </a> <!-- addFromProductPageWithoutDetails -->
+                  <span class="method-name">addFromProductPageWithoutDetails</span>
+                  <em>
+(TS_501,WL_003 from the product page add to wish list without details, this will ensure that its optional to add to wishlist with/without color and size )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishlistWithoutLogin">
+                  </a> <!-- addToWishlistWithoutLogin -->
+                  <span class="method-name">addToWishlistWithoutLogin</span>
+                  <em>
+(TS_501 WL_001 test add to wish list without login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.cartManagement.MoveToWishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveToWishlistAsGuestUser">
+                  </a> <!-- testMoveToWishlistAsGuestUser -->
+                  <span class="method-name">testMoveToWishlistAsGuestUser</span>
+                  <em>
+(TC-8.2 Move to wishlist link should not appear for Guest user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveToWishlistAsLoggedInUser">
+                  </a> <!-- testMoveToWishlistAsLoggedInUser -->
+                  <span class="method-name">testMoveToWishlistAsLoggedInUser</span>
+                  <em>
+(TC-8.1 Move item from cart to wishlist as Logged-in user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.loginFunctionality.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithEmptyFields">
+                  </a> <!-- LoginWithEmptyFields -->
+                  <span class="method-name">LoginWithEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCorrectCredentials">
+                  </a> <!-- testCorrectCredentials -->
+                  <span class="method-name">testCorrectCredentials</span>
+                  <em>
+(LF_401: test correct credentials )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsensivity">
+                  </a> <!-- testInsensivity -->
+                  <span class="method-name">testInsensivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout">
+                  </a> <!-- testLogout -->
+                  <span class="method-name">testLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWrongCredentials">
+                  </a> <!-- testWrongCredentials -->
+                  <span class="method-name">testWrongCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.wishlistManagement.TS_503_EmptyWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyTheWishlist">
+                  </a> <!-- emptyTheWishlist -->
+                  <span class="method-name">emptyTheWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.cartManagement.NavigateToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateFromCartIcon">
+                  </a> <!-- testNavigateFromCartIcon -->
+                  <span class="method-name">testNavigateFromCartIcon</span>
+                  <em>
+(TC-7.1 Navigate to cart from cart icon)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateFromSuccessMessage">
+                  </a> <!-- testNavigateFromSuccessMessage -->
+                  <span class="method-name">testNavigateFromSuccessMessage</span>
+                  <em>
+(TC-7.2 Navigate to cart from success message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.cartManagement.RemoveFromCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart">
+                  </a> <!-- testRemoveAllItemsFromCart -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <em>
+(TC-3.2 Remove All Items from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveItemFromCart(S, Purple, Olivia 1/4 Zip Light Jacket, 77.0)">
+                  </a> <!-- testRemoveItemFromCart(S, Purple, Olivia 1/4 Zip Light Jacket, 77.0) -->
+                  <span class="method-name">testRemoveItemFromCart</span>
+                  <span class="parameters">(S,Purple,Olivia 1/4 Zip Light Jacket,77.0)</span>
+                  <em>
+(TC-3.1 Remove Item from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveItemFromCart(XS, Orange, Neve Studio Dance Jacket, 69.0)">
+                  </a> <!-- testRemoveItemFromCart(XS, Orange, Neve Studio Dance Jacket, 69.0) -->
+                  <span class="method-name">testRemoveItemFromCart</span>
+                  <span class="parameters">(XS,Orange,Neve Studio Dance Jacket,69.0)</span>
+                  <em>
+(TC-3.1 Remove Item from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveItemFromCartFromMultipleItems">
+                  </a> <!-- testRemoveItemFromCartFromMultipleItems -->
+                  <span class="method-name">testRemoveItemFromCartFromMultipleItems</span>
+                  <em>
+(TC-3.1 Remove Item from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.cartManagement.CartPersistenceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestToLoggedInCartSync">
+                  </a> <!-- testGuestToLoggedInCartSync -->
+                  <span class="method-name">testGuestToLoggedInCartSync</span>
+                  <em>
+(TC-4.3 Sync Cart from Guest to Logged-in)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestUserCartPersistence">
+                  </a> <!-- testGuestUserCartPersistence -->
+                  <span class="method-name">testGuestUserCartPersistence</span>
+                  <em>
+(TC-4.1 Verify cart persistence for a guest user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoggedInUserCartPersistence">
+                  </a> <!-- testLoggedInUserCartPersistence -->
+                  <span class="method-name">testLoggedInUserCartPersistence</span>
+                  <em>
+(TC-4.2 Verify cart persistence for a logged-in user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+          <div class="suite-Ecommerce_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.cartManagement.CouponValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidCoupon">
+                  </a> <!-- testInvalidCoupon -->
+                  <span class="method-name">testInvalidCoupon</span>
+                  <em>
+(TC-5.2 Enter Invalid Coupon)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_testing-class-passed -->
+        </div> <!-- panel Ecommerce_testing -->
+        <div panel-name="test-xml-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Ecommerce-testing&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Cart Management Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.cartManagement.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.cartManagement.RemoveFromCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.cartManagement.CartPersistenceTest&quot;/&gt;
+      &lt;class name=&quot;tests.cartManagement.NavigateToCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.cartManagement.CouponValidationTest&quot;/&gt;
+      &lt;class name=&quot;tests.cartManagement.MoveToWishListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Management Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;WishList Management Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.wishlistManagement.TS_501_AddToWishlist&quot;/&gt;
+      &lt;class name=&quot;tests.wishlistManagement.TS_504_ShareWishList&quot;/&gt;
+      &lt;class name=&quot;tests.wishlistManagement.TS_505_EditWishlist&quot;/&gt;
+      &lt;class name=&quot;tests.wishlistManagement.TS_502_RemoveFromWishList&quot;/&gt;
+      &lt;class name=&quot;tests.wishlistManagement.TS_503_EmptyWishlist&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WishList Management Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Login Functionality&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.loginFunctionality.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Functionality --&gt;
+&lt;/suite&gt; &lt;!-- Ecommerce-testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Ecommerce-testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Cart Management Tests (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">WishList Management Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Functionality (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Ecommerce-testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Ecommerce-testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Ecommerce_testing');
+function tableData_Ecommerce_testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddItemFromHomePageValidInputs')
+data.setCell(0, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(0, 3, 55873);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRemoveAllItemsFromCart')
+data.setCell(1, 2, 'tests.cartManagement.RemoveFromCartTest')
+data.setCell(1, 3, 35830);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMoveToWishlistAsGuestUser')
+data.setCell(2, 2, 'tests.cartManagement.MoveToWishListTest')
+data.setCell(2, 3, 29687);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMoveToWishlistAsLoggedInUser')
+data.setCell(3, 2, 'tests.cartManagement.MoveToWishListTest')
+data.setCell(3, 3, 27951);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testRemoveItemFromCart')
+data.setCell(4, 2, 'tests.cartManagement.RemoveFromCartTest')
+data.setCell(4, 3, 27580);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'editItemInWishList')
+data.setCell(5, 2, 'tests.wishlistManagement.TS_505_EditWishlist')
+data.setCell(5, 3, 27580);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRemoveItemFromCart')
+data.setCell(6, 2, 'tests.cartManagement.RemoveFromCartTest')
+data.setCell(6, 3, 27498);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLoggedInUserCartPersistence')
+data.setCell(7, 2, 'tests.cartManagement.CartPersistenceTest')
+data.setCell(7, 3, 24982);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRemoveItemFromCartFromMultipleItems')
+data.setCell(8, 2, 'tests.cartManagement.RemoveFromCartTest')
+data.setCell(8, 3, 24588);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLogout')
+data.setCell(9, 2, 'tests.loginFunctionality.LoginTest')
+data.setCell(9, 3, 23435);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testInvalidCoupon')
+data.setCell(10, 2, 'tests.cartManagement.CouponValidationTest')
+data.setCell(10, 3, 20824);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'WL009_removeItemFromWishlist')
+data.setCell(11, 2, 'tests.wishlistManagement.TS_502_RemoveFromWishList')
+data.setCell(11, 3, 19865);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAddItemFromCategoryPageValidInputs')
+data.setCell(12, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(12, 3, 18902);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginWithEmptyFields')
+data.setCell(13, 2, 'tests.loginFunctionality.LoginTest')
+data.setCell(13, 3, 17837);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNavigateFromSuccessMessage')
+data.setCell(14, 2, 'tests.cartManagement.NavigateToCartTest')
+data.setCell(14, 3, 17616);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGuestUserCartPersistence')
+data.setCell(15, 2, 'tests.cartManagement.CartPersistenceTest')
+data.setCell(15, 3, 17615);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testNavigateFromCartIcon')
+data.setCell(16, 2, 'tests.cartManagement.NavigateToCartTest')
+data.setCell(16, 3, 17603);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testAddItemFromProductPageValidInputs')
+data.setCell(17, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(17, 3, 17181);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testAddItemFromCategoryPageValidInputs')
+data.setCell(18, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(18, 3, 16876);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testAddItemFromCategoryPageValidInputs')
+data.setCell(19, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(19, 3, 16633);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testAddItemFromCategoryPageValidInputs')
+data.setCell(20, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(20, 3, 15930);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'addToWishlistWithoutLogin')
+data.setCell(21, 2, 'tests.wishlistManagement.TS_501_AddToWishlist')
+data.setCell(21, 3, 14587);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addFromProductPageWithoutDetails')
+data.setCell(22, 2, 'tests.wishlistManagement.TS_501_AddToWishlist')
+data.setCell(22, 3, 14218);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addFromCategoryListWithDetails')
+data.setCell(23, 2, 'tests.wishlistManagement.TS_501_AddToWishlist')
+data.setCell(23, 3, 14091);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testGuestToLoggedInCartSync')
+data.setCell(24, 2, 'tests.cartManagement.CartPersistenceTest')
+data.setCell(24, 3, 14052);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'emptyTheWishlist')
+data.setCell(25, 2, 'tests.wishlistManagement.TS_503_EmptyWishlist')
+data.setCell(25, 3, 12822);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testAddItemFromCategoryPageInValidInputs')
+data.setCell(26, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(26, 3, 11414);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testAddItemFromHomePageInValidInputs')
+data.setCell(27, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(27, 3, 11227);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testWrongCredentials')
+data.setCell(28, 2, 'tests.loginFunctionality.LoginTest')
+data.setCell(28, 3, 11191);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCorrectCredentials')
+data.setCell(29, 2, 'tests.loginFunctionality.LoginTest')
+data.setCell(29, 3, 11157);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testInsensivity')
+data.setCell(30, 2, 'tests.loginFunctionality.LoginTest')
+data.setCell(30, 3, 10905);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'shareWishListWithValidEmails')
+data.setCell(31, 2, 'tests.wishlistManagement.TS_504_ShareWishList')
+data.setCell(31, 3, 10363);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'shareWishListWithInvalidEmail')
+data.setCell(32, 2, 'tests.wishlistManagement.TS_504_ShareWishList')
+data.setCell(32, 3, 10331);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testAddItemFromProductPageValidInputs')
+data.setCell(33, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(33, 3, 9021);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'addFromProductPageWithDetails')
+data.setCell(34, 2, 'tests.wishlistManagement.TS_501_AddToWishlist')
+data.setCell(34, 3, 8256);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testInvalidEmailFormat')
+data.setCell(35, 2, 'tests.loginFunctionality.LoginTest')
+data.setCell(35, 3, 8223);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testAddItemFromProductPageInValidInputs')
+data.setCell(36, 2, 'tests.cartManagement.AddToCartTest')
+data.setCell(36, 3, 7997);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testValidCoupon')
+data.setCell(37, 2, 'tests.cartManagement.CouponValidationTest')
+data.setCell(37, 3, 3);
+window.suiteTableData['Ecommerce_testing']= { tableData: data, tableDiv: 'times-div-Ecommerce_testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Ecommerce_testing">
+              </div> <!-- times-div-Ecommerce_testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Ecommerce-testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Ecommerce_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Olivia 1/4 Zip Light Jacket, S, Purple, 77)</span>
+                <span class="method-start">7803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Neve Studio Dance Jacket, S, Orange, 69)</span>
+                <span class="method-start">28361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromCategoryPageValidInputs(ui-id-4, Jackets, Jade Yoga Jacket, L, Blue, 32)</span>
+                <span class="method-start">54971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromCategoryPageValidInputs(ui-id-5, Tees, Ryker LumaTech™ Tee (V-neck), M, Gray, 28)</span>
+                <span class="method-start">78233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromHomePageValidInputs</span>
+                <span class="method-start">101187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">157061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">157409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-25, Push It Messenger Bag, 45, false, 1, https://magento.softwaretestingboard.com...)</span>
+                <span class="method-start">161013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">178205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">178378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromProductPageValidInputs(a#ui-id-6, a#ui-id-26, Set of Sprite Yoga Straps, 17, true, 3, https://magento.softwaretestingboard....)</span>
+                <span class="method-start">183150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.MoveToWishListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">192335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveToWishlistAsLoggedInUser</span>
+                <span class="method-start">195152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223104 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.CouponValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">223317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidCoupon</span>
+                <span class="method-start">231656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">231661 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">231785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromCategoryPageInValidInputs</span>
+                <span class="method-start">237144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">248559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">248722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromHomePageInValidInputs</span>
+                <span class="method-start">255494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">266722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">266937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddItemFromProductPageInValidInputs</span>
+                <span class="method-start">272476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">280474 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.CartPersistenceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">280648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGuestToLoggedInCartSync</span>
+                <span class="method-start">290202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">304255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">304421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGuestUserCartPersistence</span>
+                <span class="method-start">311516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">329131 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.CouponValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">329132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidCoupon</span>
+                <span class="method-start">334348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">355173 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.CartPersistenceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">355353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoggedInUserCartPersistence</span>
+                <span class="method-start">358172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">383155 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.MoveToWishListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">383346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveToWishlistAsGuestUser</span>
+                <span class="method-start">395002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">424690 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.NavigateToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">424907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateFromCartIcon</span>
+                <span class="method-start">431449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">449052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">449276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateFromSuccessMessage</span>
+                <span class="method-start">454978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">472595 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.cartManagement.RemoveFromCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">472828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart</span>
+                <span class="method-start">479457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">515287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">515511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveItemFromCart(S, Purple, Olivia 1/4 Zip Light Jacket, 77.0)</span>
+                <span class="method-start">527497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">554995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">555216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveItemFromCart(XS, Orange, Neve Studio Dance Jacket, 69.0)</span>
+                <span class="method-start">563787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">591368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">591583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveItemFromCartFromMultipleItems</span>
+                <span class="method-start">601321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">625910 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_501_AddToWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">626186 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_502_RemoveFromWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">628005 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_503_EmptyWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">629362 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_504_ShareWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">631871 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_505_EditWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">633939 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_501_AddToWishlist</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addToWishlistWithoutLogin</span>
+                <span class="method-start">636049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addFromCategoryListWithDetails</span>
+                <span class="method-start">650645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addFromProductPageWithoutDetails</span>
+                <span class="method-start">664739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addFromProductPageWithDetails</span>
+                <span class="method-start">678960 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_502_RemoveFromWishList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">WL009_removeItemFromWishlist</span>
+                <span class="method-start">687219 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_505_EditWishlist</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editItemInWishList</span>
+                <span class="method-start">707085 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_504_ShareWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAndNavigateToWishlist</span>
+                <span class="method-start">734672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareWishListWithValidEmails</span>
+                <span class="method-start">744300 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_503_EmptyWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAndNavigateToWishlist</span>
+                <span class="method-start">754666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyTheWishlist</span>
+                <span class="method-start">763656 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_504_ShareWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAndNavigateToWishlist</span>
+                <span class="method-start">776481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareWishListWithInvalidEmail</span>
+                <span class="method-start">799484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_501_AddToWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">809817 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_502_RemoveFromWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">810004 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_503_EmptyWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">810155 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_504_ShareWishList</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">810306 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wishlistManagement.TS_505_EditWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">810466 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.loginFunctionality.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginWithEmptyFields</span>
+                <span class="method-start">810675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsensivity</span>
+                <span class="method-start">828513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testInvalidEmailFormat</span>
+                <span class="method-start">839419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogout</span>
+                <span class="method-start">847643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWrongCredentials</span>
+                <span class="method-start">871079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCorrectCredentials</span>
+                <span class="method-start">882271 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

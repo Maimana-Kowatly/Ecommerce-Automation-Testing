@@ -1,0 +1,310 @@
+<html>
+<head>
+<title>TestNG:  Cart Management Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cart Management Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/1</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 24 00:49:29 GMT+04:00 2025</td>
+</tr>
+<tr><td>Total time:</td><td>626 seconds (626139 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromProductPageValidInputs()'><b>testAddItemFromProductPageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.3 ADD Item to the Cart From Product Details Page with valid inputs<br>Parameters: a#ui-id-6, a#ui-id-25, Push It Messenger Bag, 45, false, 1, https://magento.softwaretestingboard.com/push-it-messenger-bag.html</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.message-success&quot;}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162248c57e090c9d8709b27239fb7cf7, findElement {value=.message-success, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59606/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 162248c57e090c9d8709b27239fb7cf7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pom.ProductPage.getSuccessMessageColor(ProductPage.java:24)
+	at tests.cartManagement.AddToCartTest.verifyAddProductToCartFromProductPage(AddToCartTest.java:122)
+	at tests.cartManagement.AddToCartTest.testAddItemFromProductPageValidInputs(AddToCartTest.java:60)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace498961500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace498961500'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.message-success&quot;}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [162248c57e090c9d8709b27239fb7cf7, findElement {value=.message-success, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/xb/lykg2kw15nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59606/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 162248c57e090c9d8709b27239fb7cf7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pom.ProductPage.getSuccessMessageColor(ProductPage.java:24)
+	at tests.cartManagement.AddToCartTest.verifyAddProductToCartFromProductPage(AddToCartTest.java:122)
+	at tests.cartManagement.AddToCartTest.testAddItemFromProductPageValidInputs(AddToCartTest.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>17</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.cartManagement.MoveToWishListTest.testMoveToWishlistAsGuestUser()'><b>testMoveToWishlistAsGuestUser</b><br>Test class: tests.cartManagement.MoveToWishListTest<br>Test method: TC-8.2 Move to wishlist link should not appear for Guest user</td>
+<td></td>
+<td>29</td>
+<td>tests.cartManagement.MoveToWishListTest@4cc451f2</td></tr>
+<tr>
+<td title='tests.cartManagement.CouponValidationTest.testInvalidCoupon()'><b>testInvalidCoupon</b><br>Test class: tests.cartManagement.CouponValidationTest<br>Test method: TC-5.2 Enter Invalid Coupon</td>
+<td></td>
+<td>20</td>
+<td>tests.cartManagement.CouponValidationTest@4a94ee4</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromCategoryPageValidInputs()'><b>testAddItemFromCategoryPageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.2 ADD Item to the Cart From Category Page with valid inputs<br>Parameters: ui-id-4, Jackets, Olivia 1/4 Zip Light Jacket, S, Purple, 77</td>
+<td></td>
+<td>16</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromProductPageValidInputs()'><b>testAddItemFromProductPageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.3 ADD Item to the Cart From Product Details Page with valid inputs<br>Parameters: a#ui-id-6, a#ui-id-26, Set of Sprite Yoga Straps, 17, true, 3, https://magento.softwaretestingboard.com/set-of-sprite-yoga-straps.html</td>
+<td></td>
+<td>9</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromProductPageInValidInputs()'><b>testAddItemFromProductPageInValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.6 ADD Item to the Cart From Product Details Page with invalid inputs</td>
+<td></td>
+<td>7</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.CartPersistenceTest.testGuestUserCartPersistence()'><b>testGuestUserCartPersistence</b><br>Test class: tests.cartManagement.CartPersistenceTest<br>Test method: TC-4.1 Verify cart persistence for a guest user</td>
+<td></td>
+<td>17</td>
+<td>tests.cartManagement.CartPersistenceTest@79924b</td></tr>
+<tr>
+<td title='tests.cartManagement.CartPersistenceTest.testGuestToLoggedInCartSync()'><b>testGuestToLoggedInCartSync</b><br>Test class: tests.cartManagement.CartPersistenceTest<br>Test method: TC-4.3 Sync Cart from Guest to Logged-in</td>
+<td></td>
+<td>14</td>
+<td>tests.cartManagement.CartPersistenceTest@79924b</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromCategoryPageValidInputs()'><b>testAddItemFromCategoryPageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.2 ADD Item to the Cart From Category Page with valid inputs<br>Parameters: ui-id-4, Jackets, Neve Studio Dance Jacket, S, Orange, 69</td>
+<td></td>
+<td>18</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.CartPersistenceTest.testLoggedInUserCartPersistence()'><b>testLoggedInUserCartPersistence</b><br>Test class: tests.cartManagement.CartPersistenceTest<br>Test method: TC-4.2 Verify cart persistence for a logged-in user</td>
+<td></td>
+<td>24</td>
+<td>tests.cartManagement.CartPersistenceTest@79924b</td></tr>
+<tr>
+<td title='tests.cartManagement.MoveToWishListTest.testMoveToWishlistAsLoggedInUser()'><b>testMoveToWishlistAsLoggedInUser</b><br>Test class: tests.cartManagement.MoveToWishListTest<br>Test method: TC-8.1 Move item from cart to wishlist as Logged-in user</td>
+<td></td>
+<td>27</td>
+<td>tests.cartManagement.MoveToWishListTest@4cc451f2</td></tr>
+<tr>
+<td title='tests.cartManagement.RemoveFromCartTest.testRemoveItemFromCart()'><b>testRemoveItemFromCart</b><br>Test class: tests.cartManagement.RemoveFromCartTest<br>Test method: TC-3.1 Remove Item from Cart<br>Parameters: S, Purple, Olivia 1/4 Zip Light Jacket, 77.0</td>
+<td></td>
+<td>27</td>
+<td>tests.cartManagement.RemoveFromCartTest@4fb0f2b9</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromCategoryPageValidInputs()'><b>testAddItemFromCategoryPageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.2 ADD Item to the Cart From Category Page with valid inputs<br>Parameters: ui-id-4, Jackets, Jade Yoga Jacket, L, Blue, 32</td>
+<td></td>
+<td>16</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromHomePageInValidInputs()'><b>testAddItemFromHomePageInValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.4 ADD Item to the Cart From Home Page with invalid inputs</td>
+<td></td>
+<td>11</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.NavigateToCartTest.testNavigateFromCartIcon()'><b>testNavigateFromCartIcon</b><br>Test class: tests.cartManagement.NavigateToCartTest<br>Test method: TC-7.1 Navigate to cart from cart icon</td>
+<td></td>
+<td>17</td>
+<td>tests.cartManagement.NavigateToCartTest@7b9a4292</td></tr>
+<tr>
+<td title='tests.cartManagement.RemoveFromCartTest.testRemoveAllItemsFromCart()'><b>testRemoveAllItemsFromCart</b><br>Test class: tests.cartManagement.RemoveFromCartTest<br>Test method: TC-3.2 Remove All Items from Cart</td>
+<td></td>
+<td>35</td>
+<td>tests.cartManagement.RemoveFromCartTest@4fb0f2b9</td></tr>
+<tr>
+<td title='tests.cartManagement.RemoveFromCartTest.testRemoveItemFromCart()'><b>testRemoveItemFromCart</b><br>Test class: tests.cartManagement.RemoveFromCartTest<br>Test method: TC-3.1 Remove Item from Cart<br>Parameters: XS, Orange, Neve Studio Dance Jacket, 69.0</td>
+<td></td>
+<td>27</td>
+<td>tests.cartManagement.RemoveFromCartTest@4fb0f2b9</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromCategoryPageValidInputs()'><b>testAddItemFromCategoryPageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.2 ADD Item to the Cart From Category Page with valid inputs<br>Parameters: ui-id-5, Tees, Ryker LumaTech™ Tee (V-neck), M, Gray, 28</td>
+<td></td>
+<td>15</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromHomePageValidInputs()'><b>testAddItemFromHomePageValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.1 ADD Item to the Cart From Home Page with valid inputs</td>
+<td></td>
+<td>55</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+<tr>
+<td title='tests.cartManagement.RemoveFromCartTest.testRemoveItemFromCartFromMultipleItems()'><b>testRemoveItemFromCartFromMultipleItems</b><br>Test class: tests.cartManagement.RemoveFromCartTest<br>Test method: TC-3.1 Remove Item from Cart</td>
+<td></td>
+<td>24</td>
+<td>tests.cartManagement.RemoveFromCartTest@4fb0f2b9</td></tr>
+<tr>
+<td title='tests.cartManagement.NavigateToCartTest.testNavigateFromSuccessMessage()'><b>testNavigateFromSuccessMessage</b><br>Test class: tests.cartManagement.NavigateToCartTest<br>Test method: TC-7.2 Navigate to cart from success message</td>
+<td></td>
+<td>17</td>
+<td>tests.cartManagement.NavigateToCartTest@7b9a4292</td></tr>
+<tr>
+<td title='tests.cartManagement.AddToCartTest.testAddItemFromCategoryPageInValidInputs()'><b>testAddItemFromCategoryPageInValidInputs</b><br>Test class: tests.cartManagement.AddToCartTest<br>Test method: TC-1.5 ADD Item to the Cart From Category Page with invalid inputs</td>
+<td></td>
+<td>11</td>
+<td>tests.cartManagement.AddToCartTest@20deea7f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.cartManagement.CouponValidationTest.testValidCoupon()'><b>testValidCoupon</b><br>Test class: tests.cartManagement.CouponValidationTest<br>Test method: TC-5.1 Enter Valid Coupon</td>
+<td><div><pre>org.testng.SkipException: Skipping the valid coupon test as Cause there is no available codes.
+	at tests.cartManagement.CouponValidationTest.testValidCoupon(CouponValidationTest.java:18)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace560698386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace560698386'><pre>org.testng.SkipException: Skipping the valid coupon test as Cause there is no available codes.
+	at tests.cartManagement.CouponValidationTest.testValidCoupon(CouponValidationTest.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>tests.cartManagement.CouponValidationTest@4a94ee4</td></tr>
+</table><p>
+</body>
+</html>
