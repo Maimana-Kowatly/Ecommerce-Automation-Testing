@@ -99,6 +99,8 @@ A comprehensive **Web Automation Testing** project using **Java, Selenium, and T
 ## 🔍 Bug Tracking & Risks Report
 -[Bug Report](https://docs.google.com/spreadsheets/d/1t3RBQqq6bHXGX_sZuBNbo6h-hxkibMREHpQOH_Xqcu8/edit?usp=sharing)
 
+## 🔍 TESTNG Report
+- You can find it in test-output
 
 ## 🚀 Future Enhancements
 

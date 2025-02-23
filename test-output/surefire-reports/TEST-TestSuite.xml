@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="72.011" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/test-classes:/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/classes:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/dalalalhaffar/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dalalalhaffar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dalalalhaffar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dalalalhaffar/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/dalalalhaffar/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/dalalalhaffar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/dalalalhaffar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dalalalhaffar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dalalalhaffar/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Dubai"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SY"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/surefire/surefirebooter-20250224004243271_3.jar /Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/surefire 2025-02-24T00-42-43_227-jvmRun1 surefire-20250224004243271_1tmp surefire_0-20250224004243271_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/test-classes:/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/classes:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/dalalalhaffar/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dalalalhaffar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dalalalhaffar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dalalalhaffar/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/dalalalhaffar/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/dalalalhaffar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/dalalalhaffar/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/dalalalhaffar/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/dalalalhaffar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dalalalhaffar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dalalalhaffar/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dalalalhaffar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject/target/surefire/surefirebooter-20250224004243271_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="dalalalhaffar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/dalalalhaffar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/xb/lykg2kw15nj7td207bz78v1w0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/dalalalhaffar/IdeaProjects/MagnetoAutomationProject"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dalalalhaffar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="LoginWithEmptyFields" classname="tests.loginFunctionality.LoginTest" time="14.093">
+    <system-out><![CDATA[Username:  , Password: 
+Error Message: A login and a password are required.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Feb 24, 2025 12:42:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testInsensivity" classname="tests.loginFunctionality.LoginTest" time="14.182">
+    <system-out><![CDATA[Username: MKTEST2025@test.com , Password: 2025Testing
+Flash Message: 
+ExpectedUrl: https://magento.softwaretestingboard.com/customer/account/
+ActualUrl: https://magento.softwaretestingboard.com/customer/account/
+]]></system-out>
+    <system-err><![CDATA[Feb 24, 2025 12:42:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidEmailFormat" classname="tests.loginFunctionality.LoginTest" time="6.595">
+    <failure message="Error message was not displayed for empty fields." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message was not displayed for empty fields.
+	at org.testng.Assert.fail(Assert.java:111)
+	at tests.loginFunctionality.LoginTest.testInvalidEmailFormat(LoginTest.java:157)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+    <system-out><![CDATA[Username: test@ , Password: 2025Testing
+Element not found By.id: email-error
+]]></system-out>
+    <system-err><![CDATA[Feb 24, 2025 12:43:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testLogout" classname="tests.loginFunctionality.LoginTest" time="20.6">
+    <system-out><![CDATA[Username: mktest2025@test.com , Password: 2025Testing
+Step 1 Passed: Redirected to logoutSuccess page.
+Step 2 Passed: Redirected to homepage after logout.
+]]></system-out>
+    <system-err><![CDATA[Feb 24, 2025 12:43:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testWrongCredentials" classname="tests.loginFunctionality.LoginTest" time="8.987">
+    <system-out><![CDATA[Username: mktest2025@test.comm , Password: 2025Testing
+Flash Message: This is a demo store to test your test automaiton scripts. No orders will be fulfilled. If you are facing any issue, email us at hello@softwaretestingboard.com.
+ExpectedUrl: https://magento.softwaretestingboard.com/customer/account/login/
+]]></system-out>
+    <system-err><![CDATA[Feb 24, 2025 12:43:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testCorrectCredentials" classname="tests.loginFunctionality.LoginTest" time="7.272">
+    <system-out><![CDATA[Username: mktest2025@test.com , Password: 2025Testing
+Flash Message: 
+ExpectedUrl: https://magento.softwaretestingboard.com/customer/account/
+ActualUrl: https://magento.softwaretestingboard.com/customer/account/
+]]></system-out>
+    <system-err><![CDATA[Feb 24, 2025 12:43:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+</testsuite>

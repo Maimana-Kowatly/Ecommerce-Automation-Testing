@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T00:42:43 GMT+04:00" name="Ecommerce-testing" finished-at="2025-02-24T00:43:55 GMT+04:00" duration-ms="71759">
+    <groups>
+    </groups>
+    <test started-at="2025-02-24T00:42:43 GMT+04:00" name="Login Functionality" finished-at="2025-02-24T00:43:55 GMT+04:00" duration-ms="71759">
+      <class name="tests.loginFunctionality.LoginTest">
+        <test-method signature="LoginWithEmptyFields()[pri:0, instance:tests.loginFunctionality.LoginTest@5c30a9b0]" started-at="2025-02-24T00:42:43 GMT+04:00" name="LoginWithEmptyFields" finished-at="2025-02-24T00:42:57 GMT+04:00" duration-ms="14091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyFields -->
+        <test-method signature="testInsensivity()[pri:0, instance:tests.loginFunctionality.LoginTest@5c30a9b0]" started-at="2025-02-24T00:42:57 GMT+04:00" name="testInsensivity" finished-at="2025-02-24T00:43:11 GMT+04:00" duration-ms="14191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsensivity -->
+        <test-method signature="testInvalidEmailFormat()[pri:0, instance:tests.loginFunctionality.LoginTest@5c30a9b0]" started-at="2025-02-24T00:43:11 GMT+04:00" name="testInvalidEmailFormat" finished-at="2025-02-24T00:43:18 GMT+04:00" duration-ms="6591" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message was not displayed for empty fields.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message was not displayed for empty fields.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.loginFunctionality.LoginTest.testInvalidEmailFormat(LoginTest.java:157)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method signature="testLogout()[pri:0, instance:tests.loginFunctionality.LoginTest@5c30a9b0]" started-at="2025-02-24T00:43:18 GMT+04:00" name="testLogout" finished-at="2025-02-24T00:43:39 GMT+04:00" duration-ms="20601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method signature="testWrongCredentials()[pri:0, instance:tests.loginFunctionality.LoginTest@5c30a9b0]" started-at="2025-02-24T00:43:39 GMT+04:00" name="testWrongCredentials" finished-at="2025-02-24T00:43:48 GMT+04:00" duration-ms="8987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentials -->
+        <test-method signature="testCorrectCredentials()[pri:1, instance:tests.loginFunctionality.LoginTest@5c30a9b0]" started-at="2025-02-24T00:43:48 GMT+04:00" name="testCorrectCredentials" description="LF_401: test correct credentials " finished-at="2025-02-24T00:43:55 GMT+04:00" duration-ms="7271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectCredentials -->
+      </class> <!-- tests.loginFunctionality.LoginTest -->
+    </test> <!-- Login Functionality -->
+  </suite> <!-- Ecommerce-testing -->
+</testng-results>

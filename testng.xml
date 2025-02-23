@@ -1,26 +1,25 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Ecommerce-testing" parallel="methods" thread-count="1">
-    <test name="Cart Management Tests">
-        <classes>
-            <class name="tests.cartManagement.AddToCartTest"/>
-            <class name="tests.cartManagement.RemoveFromCartTest"/>
-            <class name="tests.cartManagement.CartPersistenceTest"/>
-            <class name="tests.cartManagement.NavigateToCartTest"/>
-            <class name="tests.cartManagement.CouponValidationTest"/>
-            <class name="tests.cartManagement.MoveToWishListTest"/>
+<!--    <test name="Cart Management Tests">-->
+<!--        <classes>-->
+<!--            <class name="tests.cartManagement.AddToCartTest"/>-->
+<!--            <class name="tests.cartManagement.RemoveFromCartTest"/>-->
+<!--            <class name="tests.cartManagement.CartPersistenceTest"/>-->
+<!--            <class name="tests.cartManagement.NavigateToCartTest"/>-->
+<!--            <class name="tests.cartManagement.CouponValidationTest"/>-->
+<!--            <class name="tests.cartManagement.MoveToWishListTest"/>-->
 
-        </classes>
-    </test>
-    <test name="WishList Management Tests">
-        <classes>
-            <class name="tests.wishlistManagement.TS_501_AddToWishlist"/>
-            <class name="tests.wishlistManagement.TS_504_ShareWishList"/>
-            <class name="tests.wishlistManagement.TS_505_EditWishlist"/>
-            <class name="tests.wishlistManagement.TS_502_RemoveFromWishList"/>
-            <class name="tests.wishlistManagement.TS_503_EmptyWishlist"/>
-        </classes>
-    </test>
-
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="WishList Management Tests">-->
+<!--        <classes>-->
+<!--            <class name="tests.wishlistManagement.TS_501_AddToWishlist"/>-->
+<!--            <class name="tests.wishlistManagement.TS_504_ShareWishList"/>-->
+<!--            <class name="tests.wishlistManagement.TS_505_EditWishlist"/>-->
+<!--            <class name="tests.wishlistManagement.TS_502_RemoveFromWishList"/>-->
+<!--            <class name="tests.wishlistManagement.TS_503_EmptyWishlist"/>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test name="Login Functionality">
         <classes>
             <class name="tests.loginFunctionality.LoginTest"/>

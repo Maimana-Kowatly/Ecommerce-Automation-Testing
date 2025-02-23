@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Ecommerce-testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="methods" name="Login Functionality(failed)" verbose="0">
+    <classes>
+      <class name="tests.loginFunctionality.LoginTest">
+        <methods>
+          <include name="testInvalidEmailFormat"/>
+        </methods>
+      </class> <!-- tests.loginFunctionality.LoginTest -->
+    </classes>
+  </test> <!-- Login Functionality(failed) -->
+</suite> <!-- Failed suite [Ecommerce-testing] -->
