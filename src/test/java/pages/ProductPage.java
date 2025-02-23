@@ -19,7 +19,9 @@ public class ProductPage {
     public String getSuccessMessageText() {
         return driver.findElement(By.cssSelector(".message-success div")).getText();
     }
-
+    public WebElement getSuccessMessage() {
+        return driver.findElement(By.cssSelector(".message-success"));
+    }
     public String getSuccessMessageColor() {
         return Color.fromString(driver.findElement(By.cssSelector(".message-success")).getCssValue("background-color")).asHex();
     }

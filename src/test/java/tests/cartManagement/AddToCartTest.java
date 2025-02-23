@@ -118,6 +118,7 @@ public class AddToCartTest extends BaseTest {
 
     private void verifyAddProductToCartFromProductPage(ProductPage productPage, String expectedQuantity, String link) {
         Assert.assertEquals(driver.getCurrentUrl(), link, "Didn't redirected to the product page");
+        Assert.assertTrue( productPage.getSuccessMessage().isDisplayed(),"Success Message didnt appear");
         SoftAssert softAssert = new SoftAssert();
         String productName = productPage.getProductName();
         softAssert.assertEquals(productPage.getSuccessMessageColor(), SUCCESS_COLOR);
