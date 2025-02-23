@@ -36,7 +36,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-<!--                    <reportsDirectory>test-output</reportsDirectory>-->
+                    <reportsDirectory>test-output</reportsDirectory>
                 </configuration>
             </plugin>
         </plugins>
